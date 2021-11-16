@@ -1,0 +1,49 @@
+Configurar cuenta
+
+git config --global user.name "daniVargas" 
+
+git config --global user.email danito@mail.com
+
+--Inicializar Repo
+
+git init
+
+o clonar
+
+git clone https://urlDelRepo.git
+
+git status  muestra cambios y untrackedfiles
+
+git add NombreArchivo   sube esearchivo
+git add -a  todo lo de la carpeta
+git add .   un directorio arriba
+git add -p  elegir si se quiere modificar algo especifico
+
+git commit -m 'titulo de lo q se hizo'
+
+git checkout
+
+git log     detalle de commit
+
+git push origin master  pushea e indica donde
+
+git rm      borrar
+
+git diff carpeta/archivo.js     ver cambios q se hicieron
+
+
+*******     para trabajo en grupo       ***********
+
+git branch Nombre       haceuna rama
+
+git checkout nombreBranch   cambia a esa rama
+
+git push Nombre
+
+git pull    
+
+git merge   une las ramas
+
+git merge --squash      une los commit de la rama y lo une a master
+
+
